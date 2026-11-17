@@ -1,0 +1,22 @@
+# 统一换行符，避免 Windows/macOS 差异导致的整文件变更
+* text=auto eol=lf
+
+# 二进制文件
+*.docx binary
+*.xlsx binary
+*.xls binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.jar binary
+
+# 脚本换行符
+mvnw text eol=lf
+mvnw.cmd text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
